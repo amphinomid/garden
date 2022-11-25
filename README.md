@@ -1,3 +1,5 @@
+### Also for posterity: https://answers.netlify.com/t/deploy-failed-today-build-was-terminated-build-script-returned-non-zero-exit-code-1/64450/2
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
