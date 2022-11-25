@@ -15,7 +15,6 @@ import Lanterns from '../images/album/lanterns.png'
 import TaiShan from '../images/album/taishan.png'
 import Waves from '../images/album/waves.png'
 import Fog from '../images/album/fog.png'
-import Smol from '../images/album/smol.png'
 
 const AlbumPage = () => {
 	return (
