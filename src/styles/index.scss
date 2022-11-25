@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Chivo';
+    src: url('./Chivo/Chivo-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Chivo';
+    src: url('./Chivo/Chivo-Bold.ttf');
+    font-weight: bold;
+}
+
+.theme-light {
+    --color-primary: #fff;
+    --font-color: #1e1e1e;
+    --accent-color: #ff9d00;
+}
+
+.theme-dark {
+    --color-primary: #1e1e1e;
+    --font-color: #fff;
+    --accent-color: #3dff77;
+}
+
+* {
+    font-family: 'Chivo', system-ui;
+    background-color: var(--color-primary);
+    color: var(--font-color);
+}
+
+img {
+    background-color: transparent;
+}
+
+a:hover {
+    color: var(--accent-color);
+}
+
+a:focus img {
+    outline: 2px solid var(--font-color);
+}
+
+#toggle-button {
+    font-size: 0.9rem;
+    border-width: 3px;
+    border-style: solid;
+    border-color: var(--color-primary);
+    border-radius: 9px;
+    cursor: pointer;
+    color: var(--color-primary);
+    background-color: var(--font-color);
+}
